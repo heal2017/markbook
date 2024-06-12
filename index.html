@@ -52,15 +52,15 @@
 
                     <div class="logo overflow-hidden">
                         <a href="" class="logo-expanded">
-                            <img src="./assets/images/bt8-expand-light.png" height="40" class="logo-light"
+                            <img src="./assets/images/logo_light@2x.png" height="40" class="logo-light"
                                 alt="在线工具网">
-                            <img src="./assets/images/bt8-expand-dark.png" height="40" class="logo-dark d-none"
+                            <img src="./assets/images/logo_dark@2x.png" height="40" class="logo-dark d-none"
                                 alt="在线工具网">
                         </a>
                         <a href="" class="logo-collapsed">
-                            <img src="./assets/images/bt.png" height="40" class="logo-light"
+                            <img src="./assets/images/logo-collapse-light.png" height="40" class="logo-light"
                                 alt="在线工具网">
-                            <img src="./assets/images/bt.png" height="40" class="logo-dark d-none"
+                            <img src="./assets/images/logo-collapse-dark.png" height="40" class="logo-dark d-none"
                                 alt="在线工具网">
                         </a>
                     </div>
@@ -227,9 +227,9 @@
                 <div class="container-fluid p-0">
 
                     <a href="" class="navbar-brand d-md-none" title="在线工具网">
-                        <img src="./assets/images/bt.png" class="logo-light"
+                        <img src="./assets/images/logo-collapsed@2x.png" class="logo-light"
                             alt="在线工具网">
-                        <img src="./assets/images/bt.png" class="logo-dark d-none"
+                        <img src="./assets/images/logo-collapsed@2x.png" class="logo-dark d-none"
                             alt="在线工具网">
                     </a>
 
@@ -346,8 +346,6 @@
                         <label for="type-baidu1"  data-id="group-b"><span>搜索</span></label>
                         <label for="type-whois"   data-id="group-c"><span>工具</span></label>
                         <label for="type-zhihu"   data-id="group-d"><span>社区</span></label>
-                        <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
-                        <label for="type-zhaopin" data-id="group-f"><span>求职</span></label>
                     </div>
                 </div>
             </div>
@@ -5910,20 +5908,18 @@
                         <div class="s-type">
                             <span></span>
                             <div class="s-type-list">
-                                <label for="m_type-baidu" data-id="group-a">常用</label>
-                                <label for="m_type-baidu1" data-id="group-b">搜索</label>
+                                <label for="m_type-common" data-id="group-a">常用</label>
+                                <label for="m_type-search" data-id="group-b">搜索</label>
                                 <label for="m_type-whois" data-id="group-c">工具</label>
                                 <label for="m_type-zhihu" data-id="group-d">社区</label>
-                                <label for="m_type-taobao1" data-id="group-e">生活</label>
-                                <label for="m_type-zhaopin" data-id="group-f">求职</label>
                             </div>
                         </div>
                         <div class="search-group group-a"><span class="type-text text-muted">常用</span>
                             <ul class="search-type">
-                                <li><input checked="checked" hidden="" type="radio" name="type2"
-                                    id="m_type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
-                                    <label for="m_type-baidu"><span class="text-muted">百度</span></label></li>
-				<li><input hidden="" type="radio" name="type2"
+                                <li><input hidden="" type="radio" name="type2"
+                                    id="m_type-common" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
+                                    <label for="m_type-common"><span class="text-muted">百度</span></label></li>
+                    	      	<li><input hidden="" type="radio" name="type2"
                                     id="m_type-bing" value="https://cn.bing.com/search?q=" data-placeholder="微软必应搜索">
                                     <label for="m_type-bing"><span class="text-muted">必应</span></label></li>
                                 <li><input hidden="" type="radio" name="type2"
@@ -5939,9 +5935,9 @@
                         </div>
                         <div class="search-group group-b"><span class="type-text text-muted">搜索</span>
                                 <ul class="search-type">
-                                    <li><input hidden="" type="radio" name="type2" id="m_type-baidu1"
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-search"
                                             value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><label
-                                            for="m_type-baidu1"><span class="text-muted">百度</span></label></li>
+                                            for="m_type-search"><span class="text-muted">百度</span></label></li>
                                     <li><input hidden="" type="radio" name="type2" id="m_type-google1"
                                             value="https://www.google.com/search?q=" data-placeholder="谷歌搜索"><label
                                             for="m_type-google1"><span class="text-muted">谷歌</span></label></li>
@@ -5996,44 +5992,6 @@
                                 <li><input hidden="" type="radio" name="type2" id="m_type-douban"
                                     value="https://www.douban.com/search?q=" data-placeholder="豆瓣">
                                     <label for="m_type-douban"><span class="text-muted">豆瓣</span></label></li>
-                            </ul>
-                        </div>
-                        <div class="search-group group-e"><span class="type-text text-muted">生活</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-taobao1"
-                                    value="https://s.taobao.com/search?q=" data-placeholder="淘宝">
-                                    <label for="m_type-taobao1"><span class="text-muted">淘宝</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-jd"
-                                    value="https://search.jd.com/Search?keyword=" data-placeholder="京东">
-                                    <label for="m_type-jd"><span class="text-muted">京东</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-xiachufang"
-                                    value="https://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房">
-                                    <label for="m_type-xiachufang"><span class="text-muted">下厨房</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-xiangha"
-                                    value="https://www.xiangha.com/so/?q=caipu&s=" data-placeholder="香哈菜谱">
-                                    <label for="m_type-xiangha"><span class="text-muted">香哈菜谱</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-12306"
-                                    value="https://www.12306.cn/?" data-placeholder="12306">
-                                    <label for="m_type-12306"><span class="text-muted">12306</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-qunar"
-                                    value="https://www.qunar.com/?" data-placeholder="去哪儿">
-                                    <label for="m_type-qunar"><span class="text-muted">去哪儿</span></label></li>
-                            </ul>
-                        </div>
-                        <div class="search-group group-f"><span class="type-text text-muted">求职</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-zhaopin"
-                                    value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw=" data-placeholder="智联招聘">
-                                    <label for="m_type-zhaopin"><span class="text-muted">智联招聘</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-51job"
-                                    value="https://search.51job.com/?" data-placeholder="前程无忧">
-                                    <label for="m_type-51job"><span class="text-muted">前程无忧</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-lagou"
-                                    value="https://www.lagou.com/jobs/list_" data-placeholder="拉钩网">
-                                    <label for="m_type-lagou"><span class="text-muted">拉钩网</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-liepin"
-                                    value="https://www.liepin.com/zhaopin/?key=" data-placeholder="猎聘网">
-                                    <label for="m_type-liepin"><span class="text-muted">猎聘网</span></label></li>
                             </ul>
                         </div>
                     </div>
